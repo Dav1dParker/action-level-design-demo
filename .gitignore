@@ -1,0 +1,44 @@
+# Unreal Engine build folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.hotreload/
+Script/
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# IDE files
+.vscode/
+.vs/
+*.code-workspace
+
+# Compiled binaries
+*.pdb
+*.obj
+*.log
+*.tlog
+*.cache
+*.app
+*.dSYM
+
+# Ignore special Unreal backup files
+Backup/
+**/*.bac
+
+# Ignore crashes
+CrashReportClient/
+
+# Ignore platform-specific junk
+.DS_Store
+Thumbs.db
+
+# Ignore config override files generated locally
+*.local
+
+# Ignore autosave maps
+Content/Autosaves/
+
+# Allow config files (important!)
+!Config/**
